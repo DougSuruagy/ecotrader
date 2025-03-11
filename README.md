@@ -62,4 +62,4 @@ O EcoTrade serve como um intermediário digital que:
 - Comunicação em tempo real: Socket.io
 
 ## Como Contribuir
-Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de enviar pull requests.
+Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição (CONTRIBUTING.md) antes de enviar pull requests.
