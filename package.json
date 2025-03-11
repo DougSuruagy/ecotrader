@@ -1,0 +1,40 @@
+{
+  "name": "ecotrader",
+  "version": "1.0.0",
+  "description": "Marketplace de materiais recicláveis que conecta compradores e vendedores",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "concurrently \"cd backend && npm test\" \"cd frontend && npm test\""
+  },
+  "keywords": [
+    "marketplace",
+    "recycle",
+    "sustainability",
+    "ecommerce",
+    "green",
+    "circular economy"
+  ],
+  "author": "EcoTrader Team",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/ecotrader.git"
+  }
+}
